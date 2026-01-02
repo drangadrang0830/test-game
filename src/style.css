@@ -1,0 +1,31 @@
+/* Google Font: Press Start 2P */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+  --color-background: #2c3e50;
+  --color-text: #ecf0f1;
+  --color-primary: #3498db;
+  --color-secondary: #e74c3c;
+  --color-accent: #f1c40f;
+
+  font-family: 'Press Start 2P', system-ui, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--color-background);
+}
+
+* {
+  box-sizing: border-box;
+}
