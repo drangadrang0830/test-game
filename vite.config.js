@@ -10,5 +10,5 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
-  base: './', // Ensure relative paths for GitHub Pages
+  base: '/test-game/', // Ensure relative paths for GitHub Pages
 })
